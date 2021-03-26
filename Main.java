@@ -6,5 +6,6 @@ public class Main
         System.out.println("Original LinkedList: " + exercises.getLinkedList());
         exercises.firstExercise(exercises.getLinkedList(), "Shepard");
         exercises.secondExercise(exercises.getLinkedList());
+        exercises.thirdExercise(exercises.getLinkedList(), 3);
     }    
 }
