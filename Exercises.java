@@ -68,6 +68,18 @@ public class Exercises
         System.out.println();
     }
 
+    public void fifthExercise(LinkedList<String> linkedList, String element, int position)
+    {
+        System.out.println("5th exercise: Write a Java program to insert the specified element at the specified position in the linked list");
+        if(position > (linkedList.size()+1) || position < 1){
+            System.out.println("I am sorry but the number you gave is invalid");
+        }else{
+            linkedList.add((position-1), element);
+            System.out.println(linkedList);
+        }
+        System.out.println();
+    }
+
     public LinkedList getLinkedList()
     {
         return this.linkedList;

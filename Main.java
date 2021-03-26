@@ -8,5 +8,6 @@ public class Main
         exercises.secondExercise(exercises.getLinkedList());
         exercises.thirdExercise(exercises.getLinkedList(), 3);
         exercises.fourthExercise(exercises.getLinkedList());
+        exercises.fifthExercise(exercises.getLinkedList(), "Mordin", 4);
     }    
 }
