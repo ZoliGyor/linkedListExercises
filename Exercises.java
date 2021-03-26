@@ -80,6 +80,15 @@ public class Exercises
         System.out.println();
     }
 
+    public void sixthExercise(LinkedList<String> linkedList, String elementFirst, String elementLast)
+    {
+        System.out.println("6th exercise: Write a Java program to insert elements into the linked list at the first and last position");
+        linkedList.addFirst(elementFirst);
+        linkedList.addLast(elementLast);
+        System.out.println(linkedList);
+        System.out.println();
+    }
+    
     public LinkedList getLinkedList()
     {
         return this.linkedList;
