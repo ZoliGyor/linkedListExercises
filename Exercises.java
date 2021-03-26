@@ -158,6 +158,15 @@ public class Exercises
         System.out.println(linkedList);
         System.out.println();
     }
+
+    public void fourteenthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("14th exercise: Write a Java program to remove all the elements from a linked list");
+        System.out.println(linkedList);
+        linkedList.removeAll(linkedList);
+        System.out.println(linkedList);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
