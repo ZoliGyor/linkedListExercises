@@ -17,5 +17,6 @@ public class Main
         exercises.eightExercise(exercises.getLinkedList(), "Grunt");
         exercises.ninethExercise(exercises.getLinkedList(), 3, villains.getLinkedList());
         exercises.tenthExercise(exercises.getLinkedList());
+        exercises.eleventhExercise(exercises.getLinkedList());
     }    
 }

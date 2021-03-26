@@ -131,6 +131,15 @@ public class Exercises
         System.out.println();
     }
 
+    public void eleventhExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("11th exercise: Write a Java program to display the elements and their positions in a linked list");
+        for(int i = 0; i < linkedList.size(); i++){
+            System.out.println("At the postion of " + (i+1) + " is the element named: " + linkedList.get(i));
+        }
+        System.out.println();
+    }
+    
     public LinkedList getLinkedList()
     {
         return this.linkedList;
