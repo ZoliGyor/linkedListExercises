@@ -18,5 +18,6 @@ public class Main
         exercises.ninethExercise(exercises.getLinkedList(), 3, villains.getLinkedList());
         exercises.tenthExercise(exercises.getLinkedList());
         exercises.eleventhExercise(exercises.getLinkedList());
+        exercises.twelfthExercise(exercises.getLinkedList(), "Reapers");
     }    
 }

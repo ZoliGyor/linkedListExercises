@@ -139,6 +139,16 @@ public class Exercises
         }
         System.out.println();
     }
+
+    public void twelfthExercise(LinkedList<String> linkedList, String element)
+    {
+        System.out.println("12th exercise: Write a Java program to remove a specified element from a linked list");
+        System.out.println(linkedList);
+        System.out.println("The element called " + element + " will be removed");
+        linkedList.remove(element);
+        System.out.println(linkedList);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
