@@ -1,18 +1,26 @@
 import java.util.LinkedList;
+import java.lang.reflect.Array;
 import java.util.Iterator;
 
 public class Exercises
 {
     private LinkedList<String> linkedList = new LinkedList<String>();
 
-    public Exercises()
+    public Exercises(int number)
     {
-        this.linkedList.add("Garrus");
-        this.linkedList.add("Tali");
-        this.linkedList.add("Wrex");
-        this.linkedList.add("Liara");
-        this.linkedList.add("Kaiden");
-        this.linkedList.add("Ashley");
+        if(number == 1){
+            this.linkedList.add("Garrus");
+            this.linkedList.add("Tali");
+            this.linkedList.add("Wrex");
+            this.linkedList.add("Liara");
+            this.linkedList.add("Kaiden");
+            this.linkedList.add("Ashley");
+        }else if(number == 2){
+            this.linkedList.add("Saren");
+            this.linkedList.add("Illusive Man");
+            this.linkedList.add("Reapers");
+        }
+        
     }
     
     public void firstExercise(LinkedList<String> linkedList, String element)
@@ -99,12 +107,21 @@ public class Exercises
     
     public void eightExercise(LinkedList<String> linkedList, String element)
     {
-        System.out.println("8th exercise: Write a Java program to insert the specified element at the front of a linked list");
+        System.out.println("8th exercise: Write a Java program to insert the specified element at the end of a linked list");
         linkedList.offerLast(element);
         System.out.println(linkedList);
         System.out.println();
     }
     
+    
+    public void ninethExercise(LinkedList<String> linkedList, int position, LinkedList<String> linkedListToBeAdded)
+    {
+        System.out.println("9th exercise: Write a Java program to insert some elements at the specified position into a linked list");
+        linkedList.addAll((position-1), linkedListToBeAdded);
+        System.out.println(linkedList);
+        System.out.println();
+    }
+
     public LinkedList getLinkedList()
     {
         return this.linkedList;

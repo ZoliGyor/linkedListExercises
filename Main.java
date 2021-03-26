@@ -1,8 +1,11 @@
+import java.util.LinkedList;
+
 public class Main
 {
     public static void main(String[] args)
     {
-        Exercises exercises = new Exercises();
+        Exercises exercises = new Exercises(1);
+        Exercises villains = new Exercises(2);
         System.out.println("Original LinkedList: " + exercises.getLinkedList());
         exercises.firstExercise(exercises.getLinkedList(), "Shepard");
         exercises.secondExercise(exercises.getLinkedList());
@@ -12,5 +15,6 @@ public class Main
         exercises.sixthExercise(exercises.getLinkedList(), "Miranda", "Jack");
         exercises.seventhExercise(exercises.getLinkedList(), "Legion");
         exercises.eightExercise(exercises.getLinkedList(), "Grunt");
+        exercises.ninethExercise(exercises.getLinkedList(), 3, villains.getLinkedList());
     }    
 }
