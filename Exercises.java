@@ -182,6 +182,14 @@ public class Exercises
         System.out.println();
     }
     
+    public void sixteenthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("16th exercise: Write a Java program to shuffle the elements in a linked list");
+        Collections.shuffle(linkedList);
+        System.out.println(linkedList);
+        System.out.println();
+    }
+    
     public LinkedList getLinkedList()
     {
         return this.linkedList;

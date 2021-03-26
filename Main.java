@@ -22,5 +22,6 @@ public class Main
         exercises.thirteenthExercise(exercises.getLinkedList());
         villains.fourteenthExercise(villains.getLinkedList());
         exercises.fifteenthExercise(exercises.getLinkedList(), "Garrus", "Shepard");
+        exercises.sixteenthExercise(exercises.getLinkedList());
     }    
 }
