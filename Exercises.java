@@ -1,5 +1,7 @@
 import java.util.LinkedList;
 import java.lang.reflect.Array;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class Exercises
@@ -164,6 +166,18 @@ public class Exercises
         System.out.println("14th exercise: Write a Java program to remove all the elements from a linked list");
         System.out.println(linkedList);
         linkedList.removeAll(linkedList);
+        System.out.println(linkedList);
+        System.out.println();
+    }
+
+    public void fifteenthExercise(LinkedList<String> linkedList, String swap1, String swap2)
+    {
+        System.out.println("15th exercise: Write a Java program of swap two elements in a linked list");
+        System.out.println(linkedList);
+        int index1 = linkedList.indexOf(swap1);
+        int index2 = linkedList.indexOf(swap2);
+        linkedList.set(index1, swap2);
+        linkedList.set(index2, swap1);
         System.out.println(linkedList);
         System.out.println();
     }
