@@ -19,5 +19,6 @@ public class Main
         exercises.tenthExercise(exercises.getLinkedList());
         exercises.eleventhExercise(exercises.getLinkedList());
         exercises.twelfthExercise(exercises.getLinkedList(), "Reapers");
+        exercises.thirteenthExercise(exercises.getLinkedList());
     }    
 }
