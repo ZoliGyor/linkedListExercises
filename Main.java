@@ -10,5 +10,6 @@ public class Main
         exercises.fourthExercise(exercises.getLinkedList());
         exercises.fifthExercise(exercises.getLinkedList(), "Mordin", 4);
         exercises.sixthExercise(exercises.getLinkedList(), "Miranda", "Jack");
+        exercises.seventhExercise(exercises.getLinkedList(), "Legion");
     }    
 }
