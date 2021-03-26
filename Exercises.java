@@ -122,6 +122,15 @@ public class Exercises
         System.out.println();
     }
 
+    public void tenthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("10th exercise: Write a Java program to get the first and last occurrence of the specified elements in a linked list");
+        System.out.println(linkedList);
+        System.out.println("The first element is: " + linkedList.getFirst());
+        System.out.println("The last element is: " + linkedList.getLast());
+        System.out.println();
+    }
+
     public LinkedList getLinkedList()
     {
         return this.linkedList;

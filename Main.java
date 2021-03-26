@@ -16,5 +16,6 @@ public class Main
         exercises.seventhExercise(exercises.getLinkedList(), "Legion");
         exercises.eightExercise(exercises.getLinkedList(), "Grunt");
         exercises.ninethExercise(exercises.getLinkedList(), 3, villains.getLinkedList());
+        exercises.tenthExercise(exercises.getLinkedList());
     }    
 }
