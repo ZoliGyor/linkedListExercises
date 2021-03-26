@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Iterator;
 
 public class Exercises
 {
@@ -46,6 +47,24 @@ public class Exercises
             }
             System.out.println("]");
         }
+        System.out.println();
+    }
+
+    public void fourthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("4th exercise: Write a Java program to iterate a linked list in reverse order");
+        Iterator iterator = linkedList.descendingIterator();
+        System.out.print("[");
+        int i = 0;
+        while(iterator.hasNext()){
+            if(i != (linkedList.size() -1)){
+                System.out.print(iterator.next() + ", ");
+            }else{
+                System.out.print(iterator.next());
+            }
+            i++;
+        }
+        System.out.println("]");
         System.out.println();
     }
 

@@ -7,5 +7,6 @@ public class Main
         exercises.firstExercise(exercises.getLinkedList(), "Shepard");
         exercises.secondExercise(exercises.getLinkedList());
         exercises.thirdExercise(exercises.getLinkedList(), 3);
+        exercises.fourthExercise(exercises.getLinkedList());
     }    
 }
