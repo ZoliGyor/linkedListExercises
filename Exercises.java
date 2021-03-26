@@ -97,6 +97,14 @@ public class Exercises
         System.out.println();
     }
     
+    public void eightExercise(LinkedList<String> linkedList, String element)
+    {
+        System.out.println("8th exercise: Write a Java program to insert the specified element at the front of a linked list");
+        linkedList.offerLast(element);
+        System.out.println(linkedList);
+        System.out.println();
+    }
+    
     public LinkedList getLinkedList()
     {
         return this.linkedList;
