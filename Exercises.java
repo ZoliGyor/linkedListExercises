@@ -283,6 +283,19 @@ public class Exercises
         }
         System.out.println();
     }
+
+    public void twentyFifthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("25th exercise: Write a Java program to test an linked list is empty or not");
+        System.out.println(linkedList);
+        System.out.print("The list is ");
+        if(linkedList.isEmpty()){
+            System.out.println("empty");
+        }else{
+            System.out.println("not empty");
+        }
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
