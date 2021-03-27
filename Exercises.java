@@ -260,6 +260,29 @@ public class Exercises
         }
         System.out.println();
     }
+
+    public void twentyFourthExercise(LinkedList<String> linkedList1, LinkedList<String> linkedList2)
+    {
+        System.out.println("24th exercise: Write a Java program to compare two linked lists");
+        System.out.println(linkedList1);
+        System.out.println(linkedList2);
+        boolean theyAreSame = true;
+        if(linkedList1.size() != linkedList2.size()){
+            theyAreSame = false;
+        }else{
+            for(int i = 0; i < linkedList1.size(); i++){
+                if(!linkedList1.get(i).equals(linkedList2.get(i))){
+                    theyAreSame = false;
+                }
+            }
+        }
+        if(!theyAreSame){
+            System.out.println("The 2 lists are not equal");
+        }else{
+            System.out.println("The 2 lists are equal");
+        }
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
