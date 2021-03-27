@@ -33,5 +33,6 @@ public class Main
         villains2.twentyThirdExercise(villains2.getLinkedList());
         exercises.twentyFourthExercise(exercises.getLinkedList(), exercises.getLinkedList());
         villains.twentyFifthExercise(villains.getLinkedList());
+        exercises.twentySixthExercise(exercises.getLinkedList(), "Ashley", "Javik");
     }    
 }

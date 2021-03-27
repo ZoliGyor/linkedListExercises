@@ -296,6 +296,25 @@ public class Exercises
         }
         System.out.println();
     }
+
+    public void twentySixthExercise(LinkedList<String> linkedList, String elementToBeReplaced, String elementToBeAdded)
+    {
+        System.out.println("26th exercise: Write a Java program to replace an element in a linked list");
+        System.out.println(linkedList);
+        int index = -1;
+        for(int i = 0; i < linkedList.size(); i++){
+            if(linkedList.get(i).equals(elementToBeReplaced)){
+                index = i;
+            }
+        }
+        if(index == -1){
+            System.out.println("I was not able to find that element");
+        }else{
+            linkedList.set(index, elementToBeAdded);
+        }
+        System.out.println(linkedList);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
