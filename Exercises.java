@@ -226,6 +226,40 @@ public class Exercises
         System.out.println("The first element of the list is: " + linkedList.getFirst());
         System.out.println();
     }
+
+    public void twentyFirstExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("21st exercise: Write a Java program to retrieve but does not remove, the last element of a linked list.");
+        System.out.println("The last element of the list is: " + linkedList.getLast());
+        System.out.println();
+    }
+
+    public void twentySecondExercise(LinkedList<String> linkedList, String element)
+    {
+        System.out.println("22nd exercise: Write a Java program to check if a particular element exists in a linked list");
+        if(linkedList.contains(element)){
+            System.out.println("The list contains that element");
+        }else{
+            System.out.println("The list does not contain that element");
+        }
+        System.out.println();
+    }
+
+    public void twentyThirdExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("23rd exercise: Write a Java program to convert a linked list to array list");
+        System.out.println(linkedList);
+        System.out.println("Converting the list into an array...");
+        String[] array = linkedList.toArray(new String[linkedList.size()]);
+        for(int i = 0; i < array.length; i++){
+            if(i == (array.length-1)){
+                System.out.println(array[i]);
+            }else{
+                System.out.print(array[i] + ", ");
+            }
+        }
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {

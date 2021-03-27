@@ -28,5 +28,8 @@ public class Main
         exercises.eighteenthExercise(exercises.getLinkedList(), villains2.getLinkedList());
         exercises.nineteenthExercise(exercises.getLinkedList());
         exercises.twentiethExercise(exercises.getLinkedList());
+        exercises.twentyFirstExercise(exercises.getLinkedList());
+        exercises.twentySecondExercise(exercises.getLinkedList(), "Shepard");
+        villains2.twentyThirdExercise(villains2.getLinkedList());
     }    
 }
