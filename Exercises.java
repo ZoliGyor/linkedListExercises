@@ -189,6 +189,16 @@ public class Exercises
         System.out.println(linkedList);
         System.out.println();
     }
+
+    public void seventeenthExercise(LinkedList<String> linkedList1, LinkedList<String> linkedList2)
+    {
+        System.out.println("17th exercise: Write a Java program to join two linked lists");
+        System.out.println(linkedList1);
+        System.out.println(linkedList2);
+        linkedList1.addAll(linkedList2);
+        System.out.println(linkedList1);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {

@@ -6,6 +6,7 @@ public class Main
     {
         Exercises exercises = new Exercises(1);
         Exercises villains = new Exercises(2);
+        Exercises villains2 = new Exercises(2);
         System.out.println("Original LinkedList: " + exercises.getLinkedList());
         exercises.firstExercise(exercises.getLinkedList(), "Shepard");
         exercises.secondExercise(exercises.getLinkedList());
@@ -23,5 +24,6 @@ public class Main
         villains.fourteenthExercise(villains.getLinkedList());
         exercises.fifteenthExercise(exercises.getLinkedList(), "Garrus", "Shepard");
         exercises.sixteenthExercise(exercises.getLinkedList());
+        exercises.seventeenthExercise(exercises.getLinkedList(), villains2.getLinkedList());
     }    
 }
