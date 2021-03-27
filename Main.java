@@ -26,5 +26,6 @@ public class Main
         exercises.sixteenthExercise(exercises.getLinkedList());
         exercises.seventeenthExercise(exercises.getLinkedList(), villains2.getLinkedList());
         exercises.eighteenthExercise(exercises.getLinkedList(), villains2.getLinkedList());
+        exercises.nineteenthExercise(exercises.getLinkedList());
     }    
 }

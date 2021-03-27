@@ -209,6 +209,16 @@ public class Exercises
         System.out.println(linkedList2);
         System.out.println();
     }
+
+    public void nineteenthExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("19th exercise: Write a Java program to remove and return the first element of a linked list");
+        System.out.println(linkedList);
+        System.out.println("THe first element to be removed is: " + linkedList.getFirst());
+        linkedList.removeFirst();
+        System.out.println(linkedList);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
