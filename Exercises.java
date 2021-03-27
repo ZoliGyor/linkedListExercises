@@ -219,6 +219,13 @@ public class Exercises
         System.out.println(linkedList);
         System.out.println();
     }
+
+    public void twentiethExercise(LinkedList<String> linkedList)
+    {
+        System.out.println("20th exercise: Write a Java program to retrieve but does not remove, the first element of a linked list");
+        System.out.println("The first element of the list is: " + linkedList.getFirst());
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
