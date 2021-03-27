@@ -199,6 +199,16 @@ public class Exercises
         System.out.println(linkedList1);
         System.out.println();
     }
+
+    public void eighteenthExercise(LinkedList<String> linkedList1, LinkedList<String> linkedList2)
+    {
+        System.out.println("18th exercise: Write a Java program to clone an linked list to another linked list");
+        System.out.println(linkedList1);
+        System.out.println(linkedList2);
+        linkedList2 = (LinkedList)linkedList1.clone();
+        System.out.println(linkedList2);
+        System.out.println();
+    }
     
     public LinkedList getLinkedList()
     {
